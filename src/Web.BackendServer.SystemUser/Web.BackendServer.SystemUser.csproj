@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="ViewModels\CreateRequest\" />
+    <Folder Include="ViewModels\ReadRequest\" />
+    <Folder Include="ViewModels\UpdateRequest\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortNet.Data\PortNet.Data.csproj" />
+    <ProjectReference Include="..\PortNet.Model\PortNet.Model.csproj" />
+    <ProjectReference Include="..\PortNet.Service\PortNet.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

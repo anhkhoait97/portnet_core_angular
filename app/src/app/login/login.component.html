@@ -1,0 +1,35 @@
+<div [@routerTransition] class="login-page">
+    <div class="row justify-content-md-center" style="margin-top: 150px;">
+        <div class="col-md-4">
+            <img class="user-avatar" src="../../../../assets/images/logo-new.png" width="200px" />
+            <h1>Port Net</h1>
+            <form role="form">
+                <a (click)="onLoggedin()" class="btn rounded-btn">{{
+                    'Log in' | translate
+                    }}</a>
+            </form>
+            <!-- <form role="form">
+                <div class="form-content">
+                    <div class="form-group">
+                        <input
+                            [placeholder]="'User Name' | translate"
+                            class="form-control input-underline input-lg"
+                            type="text"
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <input
+                            [placeholder]="'Password' | translate"
+                            class="form-control input-underline input-lg"
+                            type="password"
+                        />
+                    </div>
+                </div>
+                <a (click)="onLoggedin()" [routerLink]="['/dashboard']" class="btn rounded-btn">{{
+                    'Log in' | translate
+                }}</a>
+            </form> -->
+        </div>
+    </div>
+</div>
